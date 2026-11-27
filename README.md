@@ -10,6 +10,8 @@
 
 - Metadata File Inspector (currently basic; improvements planned for future versions)
 
+If you wanna leave a tool and it doesnt have a exit option write **exit**, this only works with **Metadata File Inspector,QR Code Generator**
+
 ## Third-party libraries
 
 Sandalphon is not affiliated with, endorsed by, or officially connected to the
