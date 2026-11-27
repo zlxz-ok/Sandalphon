@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sandalphon"
+version = "1.0.0"
+description = "Interactive command-line utilities"
+requires-python = ">=3.12"
+license = "MIT"
+license-files = ["LICENSE", "THIRD-PARTY-NOTICES.md"]
+dependencies = [
+    "InquirerPy",
+    "rich",
+    "Pillow",
+    "pyperclip",
+    "qrcode[pil]",
+]
+
+[project.scripts]
+sandal = "main:main"
+
+[tool.setuptools]
+py-modules = ["main"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["functions*"]
+namespaces = true

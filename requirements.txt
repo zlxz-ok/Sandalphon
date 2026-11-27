@@ -1,0 +1,5 @@
+InquirerPy
+rich
+Pillow
+pyperclip
+qrcode[pil]
