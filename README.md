@@ -39,7 +39,7 @@ sudo dnf install pipx
 sudo apt update && sudo apt install pipx
 ```
 
-Configure and install RaphaelDL:
+Configure and install Sandalphon:
 
 ```bash
 pipx ensurepath
@@ -65,7 +65,7 @@ Restart PowerShell, then install and run:
 
 ```powershell
 pipx install git+https://github.com/zlxz-ok/Sandalphon.git
-rpdl
+sandal
 ```
 
 ### Uninstall
